@@ -1,0 +1,49 @@
+.programs-main{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/programs.jpg');
+    
+    background-size: cover;
+    background-position: center;
+}
+#programs{
+    max-width: 1000px; 
+    margin: 0 auto;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.program{
+    width: 450px;
+    height: 400px;
+    background: linear-gradient(to right, #9733EE, #DA22FF); 
+    border-radius: 30px;
+}
+#programs h1{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 30px;
+    padding: 30px;
+}
+.program-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 30px;
+    column-gap: 30px;
+    justify-content: space-around;
+}
+.program h3{
+    text-align: center;
+    color: teal;
+    font-size: 30px;
+    padding: 20px;
+}
+.program p{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 20px;
+    text-align: justify;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
